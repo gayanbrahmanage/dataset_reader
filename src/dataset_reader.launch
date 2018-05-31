@@ -1,0 +1,5 @@
+<launch>	
+    <node pkg="gmapping" name="slam" type="slam_gmapping"/>
+    <node pkg="dataset_reader" name="reader" type="datareader" /> 
+    <node pkg="rviz" name="rviz" type="rviz" output ="screen"/> 
+</launch>
