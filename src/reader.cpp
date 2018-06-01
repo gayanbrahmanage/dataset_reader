@@ -1,4 +1,4 @@
-#include "reader.h"
+#include "dataset_reader/reader.h"
 /* This program reads a raw log file and publishes the scanner data and the odometry data for gmap.
 	Current works for intel dataset rawlog 2003
    Author: Thomas Vy
